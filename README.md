@@ -24,20 +24,43 @@ The insights from this analysis help organizations identify workforce patterns, 
   <li>Employee project allocation percentages</li>
 </ul>
 
-<p>
-The dataset is synthetic and created for educational purposes.  
-Dummy data was generated with the assistance of ChatGPT and inserted using SQL statements.  
-Although CSV import could be used, this project focuses on database schema design and analytical SQL queries.
-</p>
+### Sample Data Source
+
+The dataset used in this project is dummy data created for learning and demonstration purposes.
+
+* Data was generated with the assistance of ChatGPT
+* Records were inserted using SQL INSERT statements
+* CSV import could also be used, but manual insertion was chosen to clearly show table structure and relationships
+
+This project focuses on SQL querying, schema design, and data analysis rather than data ingestion methods.
 
 ## Dataset Questions (KPIs)
 
 <ol>
-  <li>Which employees have less than 2 years of tenure in the organization?</li>
-  <li>Who are the top 3 performing employees in each department?</li>
-  <li>Which employees work long hours but still have low performance scores?</li>
-  <li>Which employees are allocated to projects more than 100% of their capacity?</li>
-  <li>What is the average performance score of each manager’s team?</li>
+  <li>
+    Which employees have less than 2 years of tenure in the organization?  
+    <a href="https://github.com/riyantap2804/Enterprise-Workforce-Analytics-SQL/blob/main/Q1_Employee_Tenure_Analysis.sql">View SQL Query</a>
+  </li>
+
+  <li>
+    Who are the top 3 performing employees in each department?  
+    <a href="https://github.com/riyantap2804/Enterprise-Workforce-Analytics-SQL/blob/main/Q2_Department_Performance_Ranking.sql">View SQL Query</a>
+  </li>
+
+  <li>
+    Which employees work long hours but still have low performance scores?  
+    <a href="https://github.com/riyantap2804/Enterprise-Workforce-Analytics-SQL/blob/main/Q3_Workload_vs_Performance_Analysis.sql">View SQL Query</a>
+  </li>
+
+  <li>
+    Which employees are allocated to projects more than 100% of their capacity?  
+    <a href="https://github.com/riyantap2804/Enterprise-Workforce-Analytics-SQL/blob/main/Q4_Overallocated_Employees.sql">View SQL Query</a>
+  </li>
+
+  <li>
+    What is the average performance score of each manager’s team?  
+    <a href="https://github.com/riyantap2804/Enterprise-Workforce-Analytics-SQL/blob/main/Q5_Manager_Wise_Team_Performance.sql">View SQL Query</a>
+  </li>
 </ol>
 
 ## Process
@@ -48,7 +71,7 @@ Although CSV import could be used, this project focuses on database schema desig
   <li>Inserted structured sample data using SQL</li>
   <li>Validated data consistency and relationships</li>
   <li>Wrote analytical SQL queries to answer workforce questions</li>
-  <li>Applied joins, aggregations, filtering, and window functions</li>
+  <li>Applied joins, aggregations, filtering, CTEs, and window functions</li>
   <li>Performed workforce and performance analysis</li>
 </ul>
 
@@ -66,16 +89,6 @@ The project consists of the following tables:
 </ul>
 
 These tables model organizational hierarchy, workforce activity, and project participation within a company environment.
-
-## SQL Analysis Files
-
-<ul>
-  <li>Employee Tenure Analysis</li>
-  <li>Department Top Performers Ranking</li>
-  <li>Workload vs Performance Analysis</li>
-  <li>Overallocated Employees Detection</li>
-  <li>Manager-wise Team Performance</li>
-</ul>
 
 ## Project Insights
 

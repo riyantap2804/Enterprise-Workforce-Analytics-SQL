@@ -1,3 +1,9 @@
+/* NOTE:
+ This project uses manually inserted dummy data for demonstration purposes.
+ The sample dataset was generated with the help of ChatGPT.
+ Although data could also be loaded using CSV import, this project focuses
+ on SQL schema design and query implementation using INSERT statements. */
+
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
     full_name VARCHAR(100),
@@ -261,4 +267,5 @@ SELECT * FROM departments;
 SELECT * FROM attendance_logs; 
 SELECT * FROM performance_reviews; 
 SELECT * FROM projects; 
+
 SELECT * FROM project_assignments;

@@ -3,9 +3,9 @@
 ## Project Objective
 
 The objective of this project is to design and analyze an Employee Workforce Management System using SQL.
-The system helps understand employee tenure, departmental performance, workload efficiency, project allocation, and manager-level team effectiveness.
+The system helps understand employee tenure, departmental performance, workload efficiency, project allocation and manager-level team effectiveness.
 
-The insights from this analysis help organizations identify workforce patterns, performance trends, and resource utilization to support data-driven decision making.
+The insights from this analysis help organizations identify workforce patterns, performance trends and resource utilization to support data-driven decision making.
 
 ## Dataset Used
 
@@ -71,7 +71,7 @@ This project focuses on SQL querying, schema design, and data analysis rather th
   <li>Inserted structured sample data using SQL</li>
   <li>Validated data consistency and relationships</li>
   <li>Wrote analytical SQL queries to answer workforce questions</li>
-  <li>Applied joins, aggregations, filtering, CTEs, and window functions</li>
+  <li>Applied joins, aggregations, filtering, CTEs and window functions</li>
   <li>Performed workforce and performance analysis</li>
 </ul>
 
@@ -88,7 +88,7 @@ The project consists of the following tables:
   <li>Project Assignments</li>
 </ul>
 
-These tables model organizational hierarchy, workforce activity, and project participation within a company environment.
+These tables model organizational hierarchy, workforce activity and project participation within a company environment.
 
 ## Project Insights
 
@@ -104,8 +104,5 @@ These tables model organizational hierarchy, workforce activity, and project par
 
 <p>
 This project demonstrates how SQL can be used to design a relational database and extract meaningful workforce insights.  
-By analyzing employee data, performance metrics, and project allocations, organizations can better understand productivity, workload distribution, and team effectiveness.
-
-The system showcases practical SQL skills applicable to real-world business scenarios including workforce analytics, performance evaluation, and resource planning.
-
+By analyzing employee data, performance metrics and project allocations, organizations can better understand productivity, workload distribution and team effectiveness.
 </p>
